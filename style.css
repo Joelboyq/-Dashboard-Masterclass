@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1, h2 {
+    font-weight: 600;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  form {
+    margin-top: 2rem;
+  }
+  
+  input::placeholder {
+    font-style: italic;
+    color: #aaa;
+  }
+  
+  input:focus, select:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+  }
+  
